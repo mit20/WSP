@@ -1,0 +1,197 @@
+/*
+Marlon Torres
+Filename: main.css
+October 9, 2014
+*/
+
+
+/*-------------------------------- Table of Content ----------------------------------- */
+
+/*	#Page Styles
+	#Header Styles
+	#Link Styles
+	#Footer */
+
+/*------------------------------------------ #Page Styles ----------------------------------- */
+body {
+	font: 100%;  /*-- 100% = 16px --*/
+	width: 100%;
+    background: #fff;
+	background-repeat: no-repeat;
+    margin: 0 auto; /* Centers my page */
+}
+
+#container {
+	position: relative;
+	background-color: #fff;
+    max-width: 960px;
+    margin: 1% auto 1% auto;
+    padding: 20px;
+}
+
+aside {
+	float: right;
+	width: 20.83333%;
+	border: 1px thin #f00;
+}
+
+div#logo {
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+section#cta {	
+	margin-top: 150px;
+}
+
+/*------------------------------------------ #Header Styles ----------------------------------- */
+
+h1 {
+    color: #000;
+    font: normal normal 1.5em Verdana, Geneva, sans-serif;  /* font converted to em - size 24px/16px = 1.5em*/
+    padding: 20px;
+}
+
+h2 {
+    color: #000;
+    font: normal normal 1.125em Verdana, Geneva, sans-serif; /* font converted to em - size 18px/16px = 1.125em*/
+}
+
+h3 {
+    color: #0000ff;
+    font: normal normal bold .875em Verdana, Geneva, sans-serif; /* font converted to em - size 14px/16px = .875em*/
+	text-align: center;
+}
+
+h4 {
+    color: #000;
+    font: normal small-caps .75em Verdana, Geneva, sans-serif; /* font converted to em - size 12px/16px = .75em*/
+	text-align: center;
+    padding: 20px;
+}
+
+p {
+	font: normal normal .75em/1.5em Verdana, Geneva, sans-serif; /* font converted to em - size 12px/16px = .75em*/
+	margin-left: 20px;
+}
+
+
+/*------------------------------------------ #Image Styles ----------------------------------- */
+img {
+	max-width: 100%;
+}
+ 
+img#main_img {
+	margin-left: 80px;
+}
+
+
+/*------------------------------------------ #Header Styles ----------------------------------- */
+
+li.navitems {
+    display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none; /*-- Removes bullet points -- */
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	-o-transition:  all 0.1s;
+	-ms-transition:  all 0.1s;
+	-moz-transition:  all 0.1s;
+	-webkit-transition:  all 0.1s;
+	transition: all 0.1s;	/*-- Transition works on navigation - navigation items turn white from gray -- */
+}
+	
+header nav ul li a {
+	font: normal normal bold 1.125em "Times New Roman", Times, serif ; /* font size 18/16 */
+	color: #7d7d7d;
+	display:block;
+	letter-spacing: 1px;
+	max-width: 100%;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	-o-transition: all 1s ease 0s;
+	-ms-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;
+	transition: all 1s ease 0s; /*-- Transition works on navigation navigation items turn white from gray  property, duration, timing and delay all included.-- */
+}
+		
+header nav ul li:hover {
+				background: #363636;
+				
+}
+
+/*------------------------------------------ #Link Styles ----------------------------------- */
+
+a:link {                    /*Link pseudo class selector*/
+	color: #0000ff;
+}
+
+a:visited {                 /*Visited pseudo class selector*/
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {                  /*Hover pseudo class selector*/
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {               /*Active pseudo class selector*/
+    color: #ffff00;
+}
+
+/*------------------------------------------ #Form Styles ----------------------------------- */
+form label input {
+	display: block;
+	max-width: 100%;
+	min-width: 50px;
+}
+
+section#contact {
+    width: 50%;
+    background: #64883a;
+    padding: 100px;
+	margin: 60px 120px 0 120px;
+	display: inline-block;
+}
+
+label {
+	font: normal normal normal .875em Arial, Verdana, sans-serif;
+	color: #fff;
+    float: left;
+    width: 200px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+input#submit {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #f26522;
+    margin-left: 210px;
+}
+
+/*------------------------------------------ #Footer Styles ----------------------------------- */
+footer {
+	padding-top: 20.8333%; /* 20px/960px = 20.8333% */
+}
+
