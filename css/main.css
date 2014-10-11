@@ -16,23 +16,17 @@ October 9, 2014
 body {
 	font: 100%;  /*-- 100% = 16px --*/
 	width: 100%;
-    background: #fff;
+    background: #dadada;
 	background-repeat: no-repeat;
     margin: 0 auto; /* Centers my page */
 }
 
 #container {
 	position: relative;
-	background-color: #fff;
+	background-color: #dadada;
     max-width: 960px;
     margin: 1% auto 1% auto;
     padding: 20px;
-}
-
-aside {
-	float: right;
-	width: 20.83333%;
-	border: 1px thin #f00;
 }
 
 div#logo {
@@ -49,6 +43,53 @@ section#cta {
 	margin-top: 150px;
 }
 
+div#col1 {
+	width: 26.041667%;
+	height: 200px;
+	background: #00a6b6;
+	float: left;
+	margin: 10px 30px 0 30px;
+	text-align: center;
+}
+
+div#col2 {
+	width: 26.041667%;
+	height: 200px;
+	background: #00a6b6;
+	float: left;
+	margin: 10px 30px 0 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+div#col3 {
+	width: 26.041667%;
+	height: 200px;
+	background: #00a6b6;
+	float: left;
+	margin: 10px 30px 0 30px;
+	border-radius: 5px;
+	text-align: center;
+	clear: right;
+}
+
+.login-btn  {
+	background-color: #d76817;
+	width: 150px;
+	height: 30px;
+	color: #fff;
+    border: 0;
+    font-size: 14px;
+    display: block;
+	margin: 0 auto;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+
+button.login-btn {
+	text-decoration: none;
+}
+
 /*------------------------------------------ #Header Styles ----------------------------------- */
 
 h1 {
@@ -60,6 +101,11 @@ h1 {
 h2 {
     color: #000;
     font: normal normal 1.125em Verdana, Geneva, sans-serif; /* font converted to em - size 18px/16px = 1.125em*/
+}
+
+h2#features {
+	text-align: center;
+	margin: 30px 0; 30px 0;
 }
 
 h3 {
@@ -95,6 +141,7 @@ img#main_img {
 
 li.navitems {
     display:inline-block;
+	background-color: #464646;
 	float: left;
 	margin-right: 1px;
 }
@@ -118,7 +165,7 @@ header nav ul li {
 }
 	
 header nav ul li a {
-	font: normal normal bold 1.125em "Times New Roman", Times, serif ; /* font size 18/16 */
+	font: normal normal .875em Helvetica, Arial, Sans-Serif; /* font size 14/16 */
 	color: #7d7d7d;
 	display:block;
 	letter-spacing: 1px;
@@ -134,24 +181,18 @@ header nav ul li a {
 }
 		
 header nav ul li:hover {
-				background: #363636;
+				background: #d76817;
 				
 }
 
 /*------------------------------------------ #Link Styles ----------------------------------- */
 
 a:link {                    /*Link pseudo class selector*/
-	color: #0000ff;
-}
-
-a:visited {                 /*Visited pseudo class selector*/
-    color: #ff0000;
-    text-decoration: none;
+	color: #dadada;
 }
 
 a:hover {                  /*Hover pseudo class selector*/
-    color: red;
-    text-decoration: underline;
+    color: #fff;
 }
 
 a:active {               /*Active pseudo class selector*/
@@ -159,6 +200,7 @@ a:active {               /*Active pseudo class selector*/
 }
 
 /*------------------------------------------ #Form Styles ----------------------------------- */
+
 form label input {
 	display: block;
 	max-width: 100%;
@@ -167,8 +209,9 @@ form label input {
 
 section#contact {
     width: 50%;
-    background: #64883a;
-    padding: 100px;
+    background: #00a6b6;
+	border-radius: 5px;
+    padding: 75px;
 	margin: 60px 120px 0 120px;
 	display: inline-block;
 }
@@ -182,7 +225,6 @@ label {
     padding-right: 10px;
 }
 
-
 input#submit {
     font-size: 12px;
     color: #ffffff;
@@ -192,6 +234,7 @@ input#submit {
 
 /*------------------------------------------ #Footer Styles ----------------------------------- */
 footer {
-	padding-top: 20.8333%; /* 20px/960px = 20.8333% */
+	padding-top: 10.41667%; /* 10px/960px = 10.41667% */
+	clear:both;
 }
 
