@@ -5,20 +5,15 @@ October 9, 2014
 */
 
 
-/*-------------------------------- Table of Content ----------------------------------- */
-
-/*	#Page Styles
-	#Header Styles
-	#Link Styles
-	#Footer */
-
 /*------------------------------------------ #Page Styles ----------------------------------- */
 body {
 	font: 100%;  /*-- 100% = 16px --*/
 	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     background: #dadada;
 	background-repeat: no-repeat;
-    margin: 0 auto; /* Centers my page */
+   	padding: 0;
+  	margin: 0;
 }
 
 #container {
@@ -33,7 +28,7 @@ div#logo {
 	float: left;
 }
 
-nav {
+.navbar.navbar-inverse{
 	float: right;
 	margin-top: 25px;
 	margin-right: 20px;
@@ -43,12 +38,17 @@ section#cta {
 	margin-top: 150px;
 }
 
+section {
+	clear: both;
+}
+
 div#col1 {
 	width: 26.041667%;
 	height: 200px;
 	background: #00a6b6;
 	float: left;
 	margin: 10px 30px 0 30px;
+	border-radius: 5px;
 	text-align: center;
 }
 
@@ -73,146 +73,47 @@ div#col3 {
 	clear: right;
 }
 
-.login-btn  {
-	background-color: #d76817;
-	width: 150px;
-	height: 30px;
-	color: #fff;
-    border: 0;
-    font-size: 14px;
-    display: block;
-	margin: 0 auto;
-    text-transform: uppercase;
-	cursor: pointer;
+aside#socialmedia img{
+	float: right;
+	padding-right: 10px;
 }
 
-button.login-btn {
-	text-decoration: none;
+aside{
+	margin-right: 15px;
 }
 
-/*------------------------------------------ #Header Styles ----------------------------------- */
-
-h1 {
-    color: #000;
-    font: normal normal 1.5em Verdana, Geneva, sans-serif;  /* font converted to em - size 24px/16px = 1.5em*/
-    padding: 20px;
+.btn.btn-primary.btn-lg {
+	margin-left: 400px;
 }
 
-h2 {
-    color: #000;
-    font: normal normal 1.125em Verdana, Geneva, sans-serif; /* font converted to em - size 18px/16px = 1.125em*/
-}
-
-h2#features {
-	text-align: center;
-	margin: 30px 0; 30px 0;
-}
-
-h3 {
-    color: #0000ff;
-    font: normal normal bold .875em Verdana, Geneva, sans-serif; /* font converted to em - size 14px/16px = .875em*/
+.ctrtxt {
 	text-align: center;
 }
 
-h4 {
-    color: #000;
-    font: normal small-caps .75em Verdana, Geneva, sans-serif; /* font converted to em - size 12px/16px = .75em*/
+#signup {
 	text-align: center;
-    padding: 20px;
 }
-
-p {
-	font: normal normal .75em/1.5em Verdana, Geneva, sans-serif; /* font converted to em - size 12px/16px = .75em*/
-	margin-left: 20px;
-}
-
 
 /*------------------------------------------ #Image Styles ----------------------------------- */
 img {
 	max-width: 100%;
 }
- 
-img#main_img {
-	margin-left: 80px;
-}
 
-
-/*------------------------------------------ #Header Styles ----------------------------------- */
-
-li.navitems {
-    display:inline-block;
-	background-color: #464646;
-	float: left;
-	margin-right: 1px;
-}
-
-header nav ul {
-	display: flex;
-	list-style: none; /*-- Removes bullet points -- */
-	margin: 0;
-	padding: 0;
-}
-
-header nav ul li {
-	position: relative;
-	margin: 0;
-	padding: 0;
-	-o-transition:  all 0.1s;
-	-ms-transition:  all 0.1s;
-	-moz-transition:  all 0.1s;
-	-webkit-transition:  all 0.1s;
-	transition: all 0.1s;	/*-- Transition works on navigation - navigation items turn white from gray -- */
-}
-	
-header nav ul li a {
-	font: normal normal .875em Helvetica, Arial, Sans-Serif; /* font size 14/16 */
-	color: #7d7d7d;
-	display:block;
-	letter-spacing: 1px;
-	max-width: 100%;
-	padding: 15px 25px;
-	text-align: center;
-	text-decoration: none;
-	-o-transition: all 1s ease 0s;
-	-ms-transition: all 1s ease 0s;
-	-moz-transition: all 1s ease 0s;
-	-webkit-transition: all 1s ease 0s;
-	transition: all 1s ease 0s; /*-- Transition works on navigation navigation items turn white from gray  property, duration, timing and delay all included.-- */
-}
-		
-header nav ul li:hover {
-				background: #d76817;
-				
-}
-
-/*------------------------------------------ #Link Styles ----------------------------------- */
-
-a:link {                    /*Link pseudo class selector*/
-	color: #dadada;
-}
-
-a:hover {                  /*Hover pseudo class selector*/
-    color: #fff;
-}
-
-a:active {               /*Active pseudo class selector*/
-    color: #ffff00;
+.img-ctr {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*------------------------------------------ #Form Styles ----------------------------------- */
 
-form label input {
-	display: block;
-	max-width: 100%;
-	min-width: 50px;
-}
 
 section#contact {
-    width: 50%;
+    width: 75%;
     background: #00a6b6;
 	border-radius: 5px;
-    padding: 75px;
-	margin: 60px 120px 0 120px;
+    padding: 10px;
+	margin: 10px 120px 0 120px;
 	display: inline-block;
 }
 
@@ -221,8 +122,8 @@ label {
 	color: #fff;
     float: left;
     width: 200px;
-    text-align: right;
-    padding-right: 10px;
+    text-align: left;
+    padding-right: 50px;
 }
 
 input#submit {
@@ -236,5 +137,6 @@ input#submit {
 footer {
 	padding-top: 10.41667%; /* 10px/960px = 10.41667% */
 	clear:both;
+	text-align:center;
 }
 

@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SoccerScout.com - Internet Soccer Player Database</title>
 
-<head>
-    <meta charset="utf-8"/>
-    <title>SoccerScout - Internet Soccer Player Database</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-    <!--Marlon Torres
-	Filename: index.html
-	October 9, 2014 -->
-    
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="css/minireset.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    
-</head>
- 
-
-<!-- Body begins -->
-<body>
-    	<!-- Container begins -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+    <!-- Container begins -->
     	<div id="container">
         
+  <aside id="socialmedia"><a href="https://www.facebook.com" target="_blank"><img src="images/facebook44.png" alt="flat style facebook icon"></a><a href="https://twitter.com/" target="_blank"><img src="images/twitter36.png" alt="flat design twitter icon"></a><a href="https://plus.google.com/" target="_blank"><img src="images/google110.png" alt="flat design google+ icon"></a><a href="http://instagram.com/" target="_blank"><img src="images/instagram13.png" alt="flat design instagram icon"></a></aside>
         <header>
-
+<br>
             <div id="logo"> <a href="index.html"><img src="images/logo.png" alt="SoccerScout Logo placed in upper left corner"></a> </div>
 
            
             			<!-- navigation list - moves you within page to these headers. -->
-		  <nav>
-          	<ul id="menu">
-                <li class="navitems"><a href="index.html"><div>Home</div></a></li>
-                <li class="navitems"><a href="clients.html"><div>Clients</div> </a></li>
-                <li class="navitems"><a href="potentialstars.html"><div>Potential Stars</div> </a></li>
-                <li class="navitems"><a href="reports.html"><div>Reports</div></a></li>
-                <li class="navitems"><a href="links.html"><div>Links</div></a></li>  
-             </ul>
-   		  </nav>
+          <nav class="navbar navbar-inverse" role="navigation">
+          
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><div>Home</div></a></li>
+                    <li><a href="clients.html"><div>Clients</div> </a></li>
+                    <li><a href="potentialstars.html"><div>Potential Stars</div> </a></li>
+                    <li><a href="reports.html"><div>Reports</div></a></li>
+                    <li><a href="links.html"><div>Links</div></a></li> 
+                    <li><a href="contact.html"><div>Contact</div></a></li> 
+                 </ul>
+ 
+		  </nav>
+                        
           
           <br>  
 
         </header><!-- end of header -->   
 
-            <secition id="cta">
+            <secition class="column.large-centered">
             
-            <img id="main_img" src="images/rangersscrimmage1.jpg" alt="Call to action image.  Kids playing soccer">
-                <h1>Welcome to SoccerScout</h1>
+            <img class="img-ctr" src="images/rangersscrimmage1.jpg" alt="Call to action image.  Kids playing soccer">
+                <h1 class="ctrtxt">Welcome to SoccerScout</h1>
                 
-          <p>At SoccerScout we have over 100,000 soccer players worldwide in our database.  In order to access them, please <a href=			"registration.html">Log In</a> to your account.</p>
-          <p> If you don’t have one, you can Sign Up in just a few quick steps.</p>
+          <p class="ctrtxt">At SoccerScout we have over 100,000 soccer players worldwide in our database. <br>  In order to access them, please <a href=			"registration.html">Log In</a> to your account.</p>
           
-          <a href="#"><button class="login-btn">Login!</button></a>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary btn-lg">Login</button>
           
-          <p>Not a member yet? <a href="registration.html">Sign Up!</a></p>
+          <br>
+          <br>
+          <p class="ctrtxt"> If you don’t have one, you can Sign Up in just a few quick steps.</p>
+          <p class="ctrtxt">Not a member yet? <a href="registration.html">Sign Up!</a></p>
                             
           </section> <!-- cta Ends --> 
          <hr>
@@ -60,13 +69,15 @@
          <h2 id="features"><em>SoccerScout provides its members with premium features like:</em></h2>
          
            <div id="col1">
+			<img class="top" src="images/film7.png" alt="black star ">
             <h2><strong>DATABASE</strong></h2>
             <p>SoccerScout has the largest database of soccer 
-players worldwide. The database is upadate </p>
-			</div>   
+players worldwide.</p>
+            </div>   
 
 
             <div id="col2">
+             <img class="top" src="images/film7.png" alt="black star ">
              <h2><strong>REPORTS</strong></h2>
              <p>Our scouts write monthly reports on potential
 prospects from around the world.</p>
@@ -74,6 +85,7 @@ prospects from around the world.</p>
 
 
             <div id="col3">
+             <img class="top" src="images/film7.png" alt="black star ">
              <h2><strong>VIDEOS</strong></h2>
               <p>Exclusive videos. Highligts and profiles.</p>
            </div>
@@ -86,14 +98,11 @@ prospects from around the world.</p>
     		</footer><!-- end of footer -->
      
        
-        </div><!-- Container Ends -->        
+        </div><!-- Container Ends -->
 
-</body>
-<!-- Body ends -->    
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
-
-
-
-
-
