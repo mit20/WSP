@@ -6,7 +6,7 @@
 
         Marlon Torres
         Project – Final Delivery
-        Filename: registration.html
+        Filename: news.html
         Oct. 24, 2014 
 
         */-->
@@ -33,9 +33,10 @@
   
 <body>
 <!-- row 1 -->
+
 <div class="container">
-  
-  <!-- Social Media Links -->
+    
+    <!-- Social Media Links -->
     <aside id="social" class="pull-right"> 
         <a href="https://www.facebook.com/"><img src="images/Facebook32.png" alt="Facebook icon" class="pull-left img-responsive"></a>
         <a href="https://www.youtube.com/"><img src="images/Youtube32.png" alt="YouTube icon" class="pull-right img-responsive"></a>
@@ -43,11 +44,11 @@
     </aside>
     
  <aside class="pull-right" id="follow"><h2>Connect:</h2></aside>
-    
+ 
 	<div class="row">  
     	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation"><!--navbar fixed-top keeps navbar up top and across entire page. role attribute helps with accessibility -->
         	<div class="navbar-header">
-               <a href="index.html"><img src="images/logo.png" id="mainlogo" alt="SoccerScout.com logo" class="img-responsive"></a><!--image that goes in navbar -->
+             <a href="index.html"><img src="images/logo.png" id="mainlogo" alt="SoccerScout.com logo" class="img-responsive"></a><!--image that goes in navbar -->
             	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
                 	<span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -56,7 +57,7 @@
                  </button>          
             </div>
                 <div class="collapse navbar-collapse" id="collapse"> <!-- this controls the navigation and collapses as screen gets smaller and navigation button appears-->
-                   <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav">
                         <li><a href="index.html"><div>Home</div></a></li>
                     	<li><a href="clients.html"><div>Clients</div></a></li>
                     	<li><a href="news.html"><div>News</div></a></li>
@@ -67,7 +68,7 @@
                     <p class="logsign"><a href="login.html">Login </a>| <a href="registration.html">Sign Up</a></p>
                     <br>
                     <!-- Form -->
-                        <form class="navbar-form navbar-right" role="search">
+                        <form action="results.html" class="navbar-form navbar-right" role="search">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Search">
                             </div>
@@ -81,82 +82,83 @@
     <!-- navigation list - moves you within page to these headers. -->
         
 </header><!-- end of header -->
+
 <hr>
 
-<section id="contact">
+<!-- row 3 -->
+<div class="row">
+<div class="col-xs-12 col-md-8">
+    <h3>Featured Player of the Week: Eden Hazard</h3>
+    <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="625" height="352" src="http://www.youtube.com/embed/ugpgBQ7KCso"></iframe>
+    </div>
+</div>
 
-	<h3 id="regtex">Sign Up!</h3>
-        
-		<!-- Registration Form -->
-    	<form action="results.html" class="form-horizontal" role="form">
-      		<div class="form-group">
-    			<label for="firstname" class="col-sm-2 control-label">First Name:</label>
-            		<div class="col-sm-10">
-                     	<input type="text" class="form-control" id="firstname" placeholder="First Name">
-                    </div>
-    		</div>
- 
-             <div class="form-group">
-            	<label for="lastname" class="col-sm-2 control-label">Last Name:</label>
-            		<div class="col-sm-10">
-              			<input type="text" class="form-control" id="lastname" placeholder="Last Name">
-            		</div>
-            </div>
-  
-             <div class="form-group">
-            	<label for="username" class="col-sm-2 control-label">Username:</label>
-            		<div class="col-sm-10">
-              			<input type="text" class="form-control" id="username" placeholder="Username">
-            		</div>
-            </div>
-              
-              <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
-                	<div class="col-sm-10">
-                  		<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                	</div>
-                </div>
-                
-                <div class="form-group">
-                <label  class="col-sm-2 control-label"> Create Password:</label>
-                	<div class="col-sm-10">
-                  		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                	</div>
-                </div>
-                
-                <div class="form-group">
-                <label class="col-sm-2 control-label">Confirm Password:</label>
-                	<div class="col-sm-10">
-                  		<input type="password" class="form-control" id="inputPassword1" placeholder="Confirm Password">
-                	</div>
-                </div>
-                
-                
-  <div id="agree">
-  	<h4><strong>By clicking "Submit" I agree that:</strong></h4>
-        	<ul>
-                <li>I have read and accepted the <a href="registration.html">User Agreement</a> and <a href="registration.html">Privacy Policy</a>.</li>
-                <li>I am at least 18 years old.</li>
-            </ul>
-   </div>
-	</form><!-- end of form -->
+    <div class="col-xs-6 col-md-4">
+        <h3>Latest News </h3>
+        <p>• <a href="http://www.nytimes.com/2014/10/15/sports/soccer/for-young-soccer-players-how-much-is-too-much.html?_r=0">For Young Soccer Players, How Much Is Too Much?</a></p>
+        <p>• <a href="http://www.theguardian.com/football/blog/2014/aug/26/martin-odegaard-norway-15-year-old">Martin Odegaard: how will Norwegian 15-year-old cope with the limelight?</a></p>
+        <p>• <a href="http://bleacherreport.com/articles/1727878-the-top-20-young-talents-in-world-football">The Top 20 Young Talents in World Football</a></p>
+        <p>• <a href="http://www.nbcnews.com/news/investigations/how-safe-artificial-turf-your-child-plays-n220166">How Safe Is the Artificial Turf Your Child Plays On?</a></p>
+        <p>• <a href="http://www.theguardian.com/football/blog/ng-interactive/2014/oct/14/next-generation-2014-40-of-the-best-young-talents-in-world-football">Next Generation 2014: 40 of the best young talents in world football</a></p>
+        <p>• <a href="http://www.theprovince.com/sports/Soccer+Academy+Youngsters+should+play+positions/10229344/story.html">Soccer Academy: Youngsters should play all positions</a></p>
+        <p>• <a href="http://screamer.deadspin.com/how-homegrown-stars-like-gyasi-zardes-are-transforming-1648216049/+GregHoward1">How Homegrown Stars Like Gyasi Zardes Are Transforming MLS</a></p>
+        <p>• <a href="http://www.soccernation.com/mls-columbus-crew-signs-homegrown-player-ben-swanson-cms-6350">MLS' Columbus Crew Signs Homegrown Player Ben Swanson</a></p>
+    </div>
+</div>
+<hr>
+<!-- row 4 -->
+
+<h3>Potential Stars</h3>
+
+<div class="row">
+    <div class="col-xs-6 col-md-4">
+         <p><img src="images/yau.jpg" alt="Yairo Yau" class="img-responsive img-rounded"></p>
+        <h3>Mike Smith</h3>
+        <ul>
+        	<li>Current Club: FC Dallas</li>
+			<li>Height: 5' 10"</li>
+			<li>Weight: 150 lbs.</li>
+			<li>Birth Date: 07-25-1995</li>
+			<li>Birthplace: Plano, TX</li>
+        </ul>
+    </div>
     
-    <form action="welcome.html">
-  			<div class="form-group">
-    			<div class="col-sm-offset-2 col-sm-10">
-    				<input type="submit" name="signup" value="SIGN UP!" class="btn btn-default" title="Sign Up!" /> <!-- applied bootstrap btn btn-danger btn-lg class to style this button -->
-    			</div>
-            </div>
-            </form>
-            <br>
- </section>
+    <div class="col-xs-6 col-md-4">
+        <p><img src="images/amilcarl1.jpg" alt="Amilcar Henriquez" class="img-responsive img-rounded"></p>
+        <h3>Eddie Perez</h3>
+        <ul>
+        	<li>Current Club: FC Dallas</li>
+			<li>Height: 5' 10"</li>
+			<li>Weight: 150 lbs.</li>
+			<li>Birth Date: 07-25-1995</li>
+			<li>Birthplace: Plano, TX</li>
+        </ul>
+    </div>
+    
+    <div class="col-xs-6 col-md-4">
+        <p><img src="images/chen.jpg" alt="Roberto Chen" class="img-responsive img-rounded"></p>
+        <h3>Ricard Hyman</h3>
+        <ul>
+        	<li>Current Club: FC Dallas</li>
+			<li>Height: 5' 10"</li>
+			<li>Weight: 150 lbs.</li>
+			<li>Birth Date: 07-25-1995</li>
+			<li>Birthplace: Plano, TX</li>
+        </ul>
+    </div>
 
+
+</div>
+
+  
 <div style="clear: both;"></div>
 
 <!-- Footer -->
 <footer class="row">
-   <br>
-   <p><a href="index.html">© 2014 SOCCERSCOUT.COM</a></p>
+   	<br>
+    <p><a href="index.html">© 2014 SOCCERSCOUT.COM</a></p>
 </footer><!-- end of footer -->
 
 </div><!-- end of container -->

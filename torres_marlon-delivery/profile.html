@@ -6,7 +6,7 @@
 
         Marlon Torres
         Project – Final Delivery
-        Filename: registration.html
+        Filename: profile.html
         Oct. 24, 2014 
 
         */-->
@@ -34,8 +34,8 @@
 <body>
 <!-- row 1 -->
 <div class="container">
-  
-  <!-- Social Media Links -->
+    
+    <!-- Social Media Links -->
     <aside id="social" class="pull-right"> 
         <a href="https://www.facebook.com/"><img src="images/Facebook32.png" alt="Facebook icon" class="pull-left img-responsive"></a>
         <a href="https://www.youtube.com/"><img src="images/Youtube32.png" alt="YouTube icon" class="pull-right img-responsive"></a>
@@ -43,8 +43,12 @@
     </aside>
     
  <aside class="pull-right" id="follow"><h2>Connect:</h2></aside>
+ 
+	    
+        <header class="row">
+    <!-- navigation list - moves you within page to these headers. -->
     
-	<div class="row">  
+    <div class="row">  
     	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation"><!--navbar fixed-top keeps navbar up top and across entire page. role attribute helps with accessibility -->
         	<div class="navbar-header">
                <a href="index.html"><img src="images/logo.png" id="mainlogo" alt="SoccerScout.com logo" class="img-responsive"></a><!--image that goes in navbar -->
@@ -53,8 +57,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                 </button>          
-            </div>
+              </button>          
+          </div>
                 <div class="collapse navbar-collapse" id="collapse"> <!-- this controls the navigation and collapses as screen gets smaller and navigation button appears-->
                    <ul class="nav navbar-nav">
                         <li><a href="index.html"><div>Home</div></a></li>
@@ -67,7 +71,7 @@
                     <p class="logsign"><a href="login.html">Login </a>| <a href="registration.html">Sign Up</a></p>
                     <br>
                     <!-- Form -->
-                        <form class="navbar-form navbar-right" role="search">
+                        <form action="results.html" class="navbar-form navbar-right" role="search">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Search">
                             </div>
@@ -76,80 +80,35 @@
                         </aside>
                  </div>
           </nav>
-	</div>        
-        <header class="row">
-    <!-- navigation list - moves you within page to these headers. -->
+	</div>    
         
 </header><!-- end of header -->
+
 <hr>
 
-<section id="contact">
-
-	<h3 id="regtex">Sign Up!</h3>
-        
-		<!-- Registration Form -->
-    	<form action="results.html" class="form-horizontal" role="form">
-      		<div class="form-group">
-    			<label for="firstname" class="col-sm-2 control-label">First Name:</label>
-            		<div class="col-sm-10">
-                     	<input type="text" class="form-control" id="firstname" placeholder="First Name">
-                    </div>
-    		</div>
- 
-             <div class="form-group">
-            	<label for="lastname" class="col-sm-2 control-label">Last Name:</label>
-            		<div class="col-sm-10">
-              			<input type="text" class="form-control" id="lastname" placeholder="Last Name">
-            		</div>
-            </div>
-  
-             <div class="form-group">
-            	<label for="username" class="col-sm-2 control-label">Username:</label>
-            		<div class="col-sm-10">
-              			<input type="text" class="form-control" id="username" placeholder="Username">
-            		</div>
-            </div>
-              
-              <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
-                	<div class="col-sm-10">
-                  		<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                	</div>
-                </div>
-                
-                <div class="form-group">
-                <label  class="col-sm-2 control-label"> Create Password:</label>
-                	<div class="col-sm-10">
-                  		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                	</div>
-                </div>
-                
-                <div class="form-group">
-                <label class="col-sm-2 control-label">Confirm Password:</label>
-                	<div class="col-sm-10">
-                  		<input type="password" class="form-control" id="inputPassword1" placeholder="Confirm Password">
-                	</div>
-                </div>
-                
-                
-  <div id="agree">
-  	<h4><strong>By clicking "Submit" I agree that:</strong></h4>
-        	<ul>
-                <li>I have read and accepted the <a href="registration.html">User Agreement</a> and <a href="registration.html">Privacy Policy</a>.</li>
-                <li>I am at least 18 years old.</li>
+<div class="row">
+      <div class="col-xs-4"><p><img src="images/quintero1.jpg" alt="Yairo Yau" class="img-responsive img-rounded"></p>
+      <h2>Alberto Quintero</h2>
+            <ul>
+                <li>Current Club: Cruz Azul</li>
+                <li>Height: 5' 8</li>
+                <li>Weight: 150 lbs.</li>
+                <li>Birth Date: 07-25-1988</li>
+                <li>Birthplace: Panama</li>
             </ul>
-   </div>
-	</form><!-- end of form -->
-    
-    <form action="welcome.html">
-  			<div class="form-group">
-    			<div class="col-sm-offset-2 col-sm-10">
-    				<input type="submit" name="signup" value="SIGN UP!" class="btn btn-default" title="Sign Up!" /> <!-- applied bootstrap btn btn-danger btn-lg class to style this button -->
-    			</div>
+            <button type="button" class="btn btn-primary btn-lg">Contact Agent</button>
+        </div>
+        <!-- Video -->
+         <div class="col-md-6">
+         <h2>Video</h2>
+         <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5KjaOumhTKc"></iframe>
             </div>
-            </form>
-            <br>
- </section>
+         </div>
+</div>
+
+<hr>
 
 <div style="clear: both;"></div>
 

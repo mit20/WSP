@@ -1,51 +1,99 @@
-/*
-Marlon Torres
-Filename: main.css
-October 9, 2014
-*/
+/* Custom CSS Style Sheet */
+
+/*--
+        Marlon Torres
+        Project – Style & Polish
+        Filename: index.html
+        Oct. 19, 2014
+
+         --*/
+
+/*------- Main Body ------ */
+
+aside#social img{
+	max-width: 100%;
+    margin: 10px;
+}
+
+img#mainlogo{
+    width: 250px;
+    height: 90px;
+    border: none;
+}
+
+aside {
+    float: right;
+}
+
+aside img{
+    border: none;
+}
 
 
-/*------------------------------------------ #Page Styles ----------------------------------- */
 body {
-	font: 100%;  /*-- 100% = 16px --*/
-	width: 100%;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    background: #dadada;
-	background-repeat: no-repeat;
-   	padding: 0;
-  	margin: 0;
+	padding: 60px 0 60px 0;
+    background: #f1f1f1; /* W3C */
+    margin: 0 auto; /* Centers my page */
 }
 
-#container {
-	position: relative;
-	background-color: #dadada;
-    max-width: 960px;
-    margin: 1% auto 1% auto;
-    padding: 20px;
+.container{
+    background-color: #fff;
+    margin: 80px auto 0 auto;
+    padding: 20px 2.08333% 0 2.08333%; 
 }
 
-div#logo {
-	float: left;
+.jumbotron {
+	background-color: #f1f1f1;
+	height: auto;
+    border: 1px solid #ccc;	
 }
 
-.navbar.navbar-inverse{
-	float: right;
-	margin-top: 25px;
-	margin-right: 20px;
+.jumbotron p {
+    font: normal normal normal 1.3em/1.5em Helvetica, Arial, sans-serif;
+    margin: 10px 10px 10px 0;
 }
 
-section#cta {	
-	margin-top: 150px;
+.jumbotron h1 {
+    font: normal normal normal 2.0em Helvetica, Arial, sans-serif;
+    color: #363636;
 }
 
-section {
-	clear: both;
+.jumbotron h2 {
+    font: bold 1.5em Helvetica, Arial, sans-serif;
+    color: #0000ff;
+}
+
+.jumbotron img {
+    margin: 0 10px 10px 20px;
+    width: 400px;
+    height: 240px;
+    border: 1px solid #666; 
+}
+
+aside#follow h2 {
+    font: italic 1.3em Helvetica, Arial, sans-serif;
+    color: #666;
+}
+
+ h4 {
+    font: Bold .9em Helvetica, Arial, sans-serif;
+}
+
+ul {
+	font: normal .9em Helvetica, Arial, sans-serif;
+}
+
+.row img {
+    width: 200px;
+    height: 226px;
+    border: 1px solid #666; 
 }
 
 div#col1 {
+	color: #fff;
 	width: 26.041667%;
 	height: 200px;
-	background: #00a6b6;
+	background: #456524;
 	float: left;
 	margin: 10px 30px 0 30px;
 	border-radius: 5px;
@@ -53,9 +101,10 @@ div#col1 {
 }
 
 div#col2 {
+	color: #fff;
 	width: 26.041667%;
 	height: 200px;
-	background: #00a6b6;
+	background: #456524;
 	float: left;
 	margin: 10px 30px 0 30px;
 	border-radius: 5px;
@@ -63,9 +112,10 @@ div#col2 {
 }
 
 div#col3 {
+	color: #fff;
 	width: 26.041667%;
 	height: 200px;
-	background: #00a6b6;
+	background: #456524;
 	float: left;
 	margin: 10px 30px 0 30px;
 	border-radius: 5px;
@@ -73,56 +123,71 @@ div#col3 {
 	clear: right;
 }
 
-aside#socialmedia img{
-	float: right;
-	padding-right: 10px;
+iframe {
+	border-width: 0px;
 }
 
-aside{
-	margin-right: 15px;
-}
-
-.btn.btn-primary.btn-lg {
-	margin-left: 400px;
-}
-
-.ctrtxt {
+h3#regtex {
 	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
 }
 
-#signup {
-	text-align: center;
+aside p.logsign {
+	 font: normal normal normal .6em Helvetica, Arial, sans-serif;
+	 color: #FFF;
+	 margin: 10px 0 0 10px;
 }
 
-/*------------------------------------------ #Image Styles ----------------------------------- */
-img {
-	max-width: 100%;
+.navbar-form navbar-right {
+	margin-bottom: 50px;
 }
 
-.img-ctr {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+.media {
+	background-color: #f1f1f1;
+	height: auto;
+    border: 1px solid #ccc;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+}
+
+
+/*------- Navigation ----- */
+
+.navbar{
+	font: 1.2em/1.3em Helvetica, Arial, "Lucida Grande", sans-serif; 
+	background-color: #C9241E;
+    height: auto;
+    padding: 0 30px 0 30px;
+}
+
+.navbar-brand{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+div#agree {
+		margin:0 0 20px 75px;
 }
 
 /*------------------------------------------ #Form Styles ----------------------------------- */
 
 
 section#contact {
-    width: 75%;
-    background: #00a6b6;
+    width: 50%;
+    background-color: rgba(69,101,36,.9);
 	border-radius: 5px;
     padding: 10px;
-	margin: 10px 120px 0 120px;
+	margin: 10px 0 10px 300px;
 	display: inline-block;
 }
 
 label {
-	font: normal normal normal .875em Arial, Verdana, sans-serif;
+	font: normal normal normal 1.2em Arial, Verdana, sans-serif;
 	color: #fff;
     float: left;
     width: 200px;
-    text-align: left;
+    text-align: right;
     padding-right: 50px;
 }
 
@@ -132,11 +197,16 @@ input#submit {
     background-color: #f26522;
     margin-left: 210px;
 }
+/*------- Footer ----- */
 
-/*------------------------------------------ #Footer Styles ----------------------------------- */
-footer {
-	padding-top: 10.41667%; /* 10px/960px = 10.41667% */
-	clear:both;
+footer{
+	font: small-caps 1.0em/1.5em Arial, Verdana, sans-serif;
 	text-align:center;
+	 border: 1px solid #ccc;
+	 border-radius: 10px;
+	 margin-top: 30px;
+	 margin-bottom: 30px;
+	 padding: 10px; 
 }
+
 
