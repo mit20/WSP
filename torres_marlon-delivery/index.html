@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <!--
+
+        Marlon Torres
+        Project – Final Delivery
+        Filename: index.html
+        Oct. 24, 2014  
+
+        */-->
+
+    
+    <!-- Meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">  <!-- viewport meta tag -->
+    <title>SoccerScout.com - Internet Soccer Player Database</title>
+    <link rel="shortcut icon" href="images/faviconlogo.ico" /><!--favicon code -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/respond.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+<body>
+<!-- row 1 -->
+<div class="container">
+   
+   <!-- Social Media Links -->
+    <aside id="social" class="pull-right"> 
+        <a href="https://www.facebook.com/"><img src="images/Facebook32.png" alt="Facebook icon" class="pull-left img-responsive"></a>
+        <a href="https://www.youtube.com/"><img src="images/Youtube32.png" alt="YouTube icon" class="pull-right img-responsive"></a>
+        <a href="https://twitter.com/"><img src=  "images/Twitter32.png" alt="Twitter Icon" class="pull-right img-responsive"></a>    
+    </aside>
+    
+ <aside class="pull-right" id="follow"><h2>Connect:</h2></aside>
+ 
+
+        <header class="row">
+    <!-- navigation list - moves you within page to these headers. -->
+    <div class="row">  
+    	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation"><!--navbar fixed-top keeps navbar up top and across entire page. role attribute helps with accessibility -->
+        	<div class="navbar-header">
+             <a href="index.html"><img src="images/logo.png" id="mainlogo" alt="SoccerScout.com logo" class="img-responsive"></a><!--image that goes in navbar -->
+            	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                	<span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                 </button>          
+            </div>
+                <div class="collapse navbar-collapse" id="collapse"> <!-- this controls the navigation and collapses as screen gets smaller and navigation button appears-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><div>Home</div></a></li>
+                    	<li><a href="clients.html"><div>Clients</div></a></li>
+                    	<li><a href="news.html"><div>News</div></a></li>
+                    	<li><a href="contact.html"><div>Contact</div></a></li>  
+                    </ul> 
+                    
+                    <aside>
+                    <p class="logsign"><a href="login.html">Login </a>|<a href="registration.html">Sign Up</a></p>
+                    <br>
+                    <!-- Form -->
+                        <form  action="results.html" class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        	<button type="submit" class="btn btn-default">Search</button>
+                        </form>
+                       </aside> 
+                 </div>
+          </nav>
+	</div>        
+        
+</header><!-- end of header -->
+
+  <!-- Jumbotron -->    
+    <div class="jumbotron">
+     <!-- img-response make images them responsive. Used hidden xs to hide image at small dims -->
+      <h1 class="ctrtxt">Welcome to SoccerScout</h1>
+      <img class="pull-right img-responsive img-rounded hidden-xs" src="images/rangersscrimmage1.jpg" alt="Call to action image.  Kids playing soccer">
+        
+                
+          <p class="ctrtxt">At SoccerScout we have over 100,000 soccer players worldwide in our database. <br>In order to access them, please <a href=	"login.html">Log In</a> to your account.</p>
+
+<p>If you don't have an account you can sign up for one!</p>
+
+<form action="registration.html">
+    <div>
+    	<input type="submit" name="signup" value="SIGN UP!" class="btn btn-danger btn-lg" title="Sign Up!" /> <!-- applied bootstrap btn btn-danger btn-lg class to style this button -->
+    </div>
+</form>
+
+<div style="clear: both;"></div>
+</div>
+
+<article>
+         
+         <h2><em>SoccerScout provides its members with premium features like:</em></h2>
+         
+           <div id="col1">
+			<img class="top" src="images/film7.png" alt="black star ">
+            <h2><strong>DATABASE</strong></h2>
+            <p>SoccerScout has the largest database of soccer players worldwide.</p>
+            </div>   
+
+
+            <div id="col2">
+             <img class="top" src="images/film7.png" alt="black star ">
+             <h2><strong>REPORTS</strong></h2>
+             <p>Our scouts write monthly reports on potential
+prospects from around the world.</p>
+           </div>  
+
+
+            <div id="col3">
+             <img class="top" src="images/film7.png" alt="black star ">
+             <h2><strong>VIDEOS</strong></h2>
+              <p>Exclusive videos. Highlights and profiles.</p>
+           </div>
+              
+</article>
+
+<div style="clear: both;"></div>
+
+<!-- Footer -->
+<footer class="row">
+    <br />
+    <p><a href="index.html">© 2014 SOCCERSCOUT.COM</a></p>
+</footer><!-- end of footer -->
+
+</div><!-- end of container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
